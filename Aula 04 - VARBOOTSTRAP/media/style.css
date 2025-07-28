@@ -1,0 +1,11 @@
+/* cor padrão para tela grande*/
+body {
+background-color: aqua;
+}
+
+@media screen and (max-width:768px) {
+body {
+     background-color: brown;
+}
+
+}

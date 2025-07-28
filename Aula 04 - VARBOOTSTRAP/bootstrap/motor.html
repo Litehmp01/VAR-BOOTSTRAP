@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!---Bootstrap javaScrip-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Mecanic Speed</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="produtos.html">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contatos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="entrar.html">Entrar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <nav class="barra">
+        <div class="d-flex justify-content-center flex-wrap">
+            <ul class="nav nav-tabs ">
+                <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="produtos.html">MAIS VENDIDOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="trasmicao.html">TRANSMIÇÃO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light " href="direcao.html">DIREÇÃO HIDRAULICA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="injecao.html">INJEÇÃO ELETRONICA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="eletrica.html">ELÉTRICA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="motor.html">MOTOR</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="suspensao.html">SUSPENSÃO</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="d-flex justify-content-evenly flex-wrap">
+            <!--------------Produto1----------->
+            <div class="card" style="width: 18rem;">
+                <img src="img/motor1.png" class="card-img-top" alt="flauta">
+                <div class="card-body">
+                    <h5 class="card-title">Turbina Com Atuador Ford Range e Troller 3.2 20v 5 Cilindros Duratorq Euro V Ano 2017 a 2022 Seminova</h5>
+                    <h6><strong>R$ 3.500,00</strong></h6>
+                    <h6> Descrição</h6>
+                    <p class="card-text">Turbina com atuador eletrônico original para Ranger 3.2 e Troller 3.2 20V Euro 6 - produto seminovo com garantia de 90 dias e 100% funcional, ideal para quem busca reposição com qualidade, segurança e economia.</p>
+                    <a href="#" class="btn btn-primary"><strong>Comprar</strong></a>
+                </div>
+            </div>
+            <!--------------Produto2----------->
+            <div class="card" style="width: 18rem;">
+                <img src="img/motor2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Motor Completo Chevrolet Cobalt 1.4 flex Completo cambio mecanico</h5>
+                    <h6><strong>R$ 20.737,33</strong></h6>
+                    <h6> Descrição</h6>
+                    <p class="card-text">Composto por: Cabeçote, Bloco do Motor, Coletor de Escape, Catalisador, Cabos de Vela, Bobina de Ignição, Velas Aquecedoras, Tampa de Válvulas, Carter, Chicote do Motor, Corpo de Borboleta, Kit de Embreagem, Vareta do nivel de Oleo</p>
+                    <a href="#" class="btn btn-primary"><strong>Comprar</strong></a>
+                </div>
+            </div>
+            <!--------------------------------->
+        </div><!---Fecha o justify Content--->
+    </main>
+</body>
+
+</html>

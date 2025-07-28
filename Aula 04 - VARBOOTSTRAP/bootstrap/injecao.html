@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!---Bootstrap javaScrip-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Mecanic Speed</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="produtos.html">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contatos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="entrar.html">Entrar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <nav class="barra">
+        <div class="d-flex justify-content-center flex-wrap">
+            <ul class="nav nav-tabs ">
+                <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="produtos.html">MAIS VENDIDOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="trasmicao.html">TRANSMIÇÃO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  text-light" href="direcao.html">DIREÇÃO HIDRAULICA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  active" href="injecao.html">INJEÇÃO ELETRONICA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="eletrica.html">ELÉTRICA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="motor.html">MOTOR</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="suspensao.html">SUSPENSÃO</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="d-flex justify-content-evenly flex-wrap">
+            <!--------------Produto1----------->
+            <div class="card" style="width: 18rem;">
+                <img src="img/injecao1.png" class="card-img-top" alt="flauta">
+                <div class="card-body">
+                    <h5 class="card-title">Bomba de Alta Pressão Cummins ISB 4 e 6 Cilíndos AGRALE MA12 / MT12 </h5>
+                    <h6><strong>R$ 2.700,00</strong></h6>
+                    <h6> Descrição</h6>
+                    <p class="card-text">Aplicaçõa Para os Seguintes Veículos:VW WORKER E CONSTELLATION - 8150E /9150E / 17250E /24250E /15190E.FORD CARGO 1317E.</p>
+                    <a href="#" class="btn btn-primary"><strong>Comprar</strong></a>
+                </div>
+            </div>
+            <!--------------Produto2----------->
+            <div class="card" style="width: 18rem;">
+                <img src="img/injecao2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Valvula Egr Hyundai HR e Kia Bongo 2.5 16v Ano 2012 a 2021</h5>
+                    <h6><strong>R$ 1.650,00</strong></h6>
+                    <h6> Descrição</h6>
+                    <p class="card-text">Valvula Egr Hyundai HR e Kia Bongo 2.5 16v Euro V.Ano de Aplicação: 2012 a 2022.Nova Original Mobis.Garantia de 3 Mêse de Garantia.</p>
+                    <a href="#" class="btn btn-primary"><strong>Comprar</strong></a>
+                </div>
+            </div>
+            <!--------------------------------->
+        </div><!---Fecha o justify Content--->
+    </main>
+</body>
+
+</html>

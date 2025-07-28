@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!---Bootstrap javaScrip-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Mecanic Speed</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="produtos.html">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contatos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="entrar.html">Entrar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <nav class="barra">
+        <div class="d-flex justify-content-center flex-wrap">
+            <ul class="nav nav-tabs ">
+                <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="produtos.html">MAIS VENDIDOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="trasmicao.html">TRANSMIÇÃO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light " href="direcao.html">DIREÇÃO HIDRAULICA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light " href="injecao.html">INJEÇÃO ELETRONICA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="eletrica.html">ELÉTRICA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="motor.html">MOTOR</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="suspensao">SUSPENSÃO</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="d-flex justify-content-evenly flex-wrap">
+            <!--------------Produto1----------->
+            <div class="card" style="width: 18rem;">
+                <img src="img/eletrica1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Alternador L300 2.5 8V Ano 2000/com Polia Dupla e Bomba de Vácuo 75 Amperes</h5>
+                    <h6><strong>R$ 1.340,02</strong></h6>
+                    <h6> Descrição</h6>
+                    <p class="card-text">Alternador L300 2.5 8V com Polia Dupla e Bomba de Vácuo 75 Amperes. Produzido Sob Rígidos Controles de Qualidade, de Acordo com Sistemas Originais.
+Produto Novo Importada Marca AutoTec Certificado ISO 9001.</p>
+                    <a href="#" class="btn btn-primary"><strong>Comprar</strong></a>
+                </div>
+            </div>
+            <!--------------Produto2----------->
+            <div class="card" style="width: 18rem;">
+                <img src="img/eletrica2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Bateria Z60D Zetta</h5>
+                    <h6><strong>R$ 412,00</strong></h6>
+                    <h6> Descrição</h6>
+                    <p class="card-text">A Bateria Zetta modelo Z60D oferece um excelente desempenho e tempo de vida útil em comparação com outros produtos similares. Conta com 60 amperes e tem pólo positivo no lado direito</p>
+                    <a href="#" class="btn btn-primary"><strong>Comprar</strong></a>
+                </div>
+            </div>
+            <!--------------------------------->
+        </div><!---Fecha o justify Content--->
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!---Bootstrap javaScrip-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Mecanic Speed</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="produtos.html">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contatos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="entrar.html">Entrar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <nav class="barra">
+        <div class="d-flex justify-content-center flex-wrap">
+            <ul class="nav nav-tabs ">
+                <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="produtos.html">MAIS VENDIDOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="trasmicao.html">TRANSMIÇÃO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="direcao.html">DIREÇÃO HIDRAULICA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="injecao.html">INJEÇÃO ELETRONICA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="eletrica.html">ELÉTRICA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="motor.html">MOTOR</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="suspensao.html">SUSPENSÃO</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="d-flex justify-content-evenly flex-wrap">
+            <!--------------Produto1----------->
+            <div class="card" style="width: 18rem;">
+                <img src="img/hidraulica1.png" class="card-img-top" alt="flauta">
+                <div class="card-body">
+                    <h5 class="card-title">Caixa de Direção Hidráulica Mercedes Benz Sprinter 515 Euro V Ano 2012 até 2020</h5>
+                    <h6><strong>R$ 2.890,00</strong></h6>
+                    <h6> Descrição</h6>
+                    <p class="card-text"> Caixa de Direção Hidráulica  Produto novo Importado.Produto Novo Importada Marca C.V Certificado ISO 9001.Produzido Sob Rígidos Controles de Qualidade, de Acordo com Sistemas Originais.</p>
+                    <a href="#" class="btn btn-primary"><strong>Comprar</strong></a>
+                </div>
+            </div>
+            <!--------------Produto2----------->
+            <div class="card" style="width: 18rem;">
+                <img src="img/hidraulica2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Bomba de Direção Hidráulica New 1.6 / 1.8 e 2.0 16V Civic 2007 a 2011 Marca C.V.</h5>
+                    <h6><strong>R$ 3.500,00</strong></h6>
+                    <h6> Descrição</h6>
+                    <p class="card-text">Bomba de Direção Hidráulica New Civic 2007 a 2011 1.6 16v e 1.8 16v e 2.0 16V. Produto Novo Importada Marca C.VCertificado ISO 9001.
+Produzido Sob Rígidos Controles de Qualidade, de Acordo com Sistemas Originais.</p>
+                    <a href="#" class="btn btn-primary"><strong>Comprar</strong></a>
+                </div>
+            </div>
+            <!--------------------------------->
+        </div><!---Fecha o justify Content--->
+    </main>
+</body>
+
+</html>
